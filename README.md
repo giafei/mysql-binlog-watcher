@@ -28,4 +28,4 @@ public class TestTable1Watcher implements IMysqlDataListener<TestTable1> {
 }
 ```
 
-可以监听mysql的数据变化同步数据到Redis或其他缓存
+可以监听mysql的数据变化同步数据到Redis或其他缓存，从业务层解耦
